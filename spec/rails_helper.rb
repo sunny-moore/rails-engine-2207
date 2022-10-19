@@ -3,7 +3,7 @@ require 'simplecov'
 SimpleCov.start
 
 require 'spec_helper'
-require 'spec/support/factory_bot.rb'
+require 'factory_bot.rb'
 
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
